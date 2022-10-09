@@ -82,10 +82,11 @@
   padding: 5px 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding: 40px 20px;
   }
   .experiencia .subtitulo {
     color: #141414;
