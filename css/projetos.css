@@ -35,7 +35,7 @@
   object-fit: cover;
 }
 
-.card-projeto::before {
+/* .card-projeto::before {
   content: "";
   display: block;
   width: 4px;
@@ -44,16 +44,17 @@
   position: absolute;
   top: 20px;
   left: -4px;
-}
+} */
 
 .projeto-ano {
-  position: absolute;
+  /* position: absolute;
   top: 22px;
-  left: -100px;
-  text-align: right;
-  width: 80px;
+  left: -100px; */
+  /* text-align: right;
+  width: 80px; */
   color: #525252;
   font-size: 0.875rem;
+  margin-bottom: 10px;
 }
 
 .projeto-titulo {
@@ -68,6 +69,7 @@
   font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 800px) {
