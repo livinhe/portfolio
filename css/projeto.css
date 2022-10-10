@@ -17,6 +17,7 @@
   font-weight: bold;
   color: #924A55;
   margin: 20px 0 0px 0;
+  text-align: right;
 }
 
 .descricao {
@@ -44,9 +45,9 @@
 
 .descricao-img-container {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 40px 0;
   justify-content: center;
 }
 
